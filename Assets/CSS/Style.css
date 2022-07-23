@@ -10,3 +10,11 @@
     --LightFrenchBeige: #D0B17A;
     --PeachCrayola: #F5C396;
 }
+
+header {
+    display: inline;
+}
+
+nav {
+    display: inline;
+}
