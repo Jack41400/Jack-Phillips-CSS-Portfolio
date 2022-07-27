@@ -1,11 +1,16 @@
-
+* {
+    font-family: 'imprima';
+}
 :root {
     /*Color Palate*/
     --background: #E5DFDC;
-    --ArmyGreen: #41521F;
-    --MistyMoss: #A89F68;
-    --LightFrenchBeige: #D0B17A;
-    --PeachCrayola: #F5C396;
+    --retroGreen: #66a59a;
+    --retroRed: #e9311a;
+    --retroBeige: #ecae7d;
+    --retroOrange: #ed6335;
+    --retroLightBlue: #026c80;
+    --retroDarkBlue: #064c72;
+    
 }
 
 body {
@@ -17,8 +22,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: var(--ArmyGreen);
+    background-color: var(--retroGreen);
     color: var(--background);
+}
+
+header h1{
+    margin-left: 2%;
+    font-size: 220%;
+    font-family: 'Righteous';
 }
 
 header a {
@@ -71,6 +82,8 @@ article img {
 }
 
 .hey {
+    color: var(--retroLightBlue);
     font-size: 500%;
+    font-family: 'Righteous', cursive;
     padding-right: 1%;
 }
