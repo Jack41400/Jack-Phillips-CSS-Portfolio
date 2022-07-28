@@ -18,17 +18,17 @@ body {
 }
 
 header {
+    background-color: var(--retroGreen);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: var(--retroGreen);
     color: var(--background);
 }
 
 header h1{
     margin-left: 2%;
-    font-size: 220%;
+    font-size: 300%;
     font-family: 'Righteous';
 }
 
@@ -37,9 +37,13 @@ header a {
     text-decoration: none;
 }
 
+header a:hover, header a:active {
+    color: #fff;
+}
+
 nav {
     padding-right: 5%;
-    padding-left: auto;
+
 }
 
 nav ul {
@@ -63,27 +67,91 @@ nav a {
     text-shadow: none;
 }
 
-nav a:hover, nav a:active {
-    color: #fff;
-}
-
-article {
+section {
+    background-color: var(--retroGreen);
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
     
 }
-article img {
-    padding-right: 2%;
-    padding-left: 10%;
+section img {
     padding-top: 20px;
-    max-width: fit-content;
+    border-style: solid;
+    border-color: var(--retroGreen);
+    border-radius: 75% 75% 50% 50%;
 }
 
+div h3 {
+    font-size: 200%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+    /*container*/
+.breakOne { 
+    display: flex;
+    max-width: 33%;
+    padding-left: 2%;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    align-items: flex-start;
+    color: var(--background);
+}
+
+/*child1*/
 .hey {
-    color: var(--retroLightBlue);
-    font-size: 500%;
+    color: var(--retroDarkBlue);
+    font-size: 700%;
     font-family: 'Righteous', cursive;
+    margin-left: 10%;
     padding-right: 1%;
 }
+
+/*child2*/
+.jack {
+    font-size: 300%;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/*child3*/
+.webDev {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 200%;
+
+}
+
+.headshot {
+    display: flex;
+    margin-right: 10%;
+}
+
+.headingAboutMe {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.containerAbout {
+    background-color: var(--background);
+    width: 20%;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+#about_me {
+    background-color: var(--retroBeige);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+
+/*1225 width*/
