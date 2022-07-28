@@ -83,14 +83,7 @@ section img {
     border-color: var(--retroGreen);
     border-radius: 75% 75% 50% 50%;
 }
-
-div h3 {
-    font-size: 200%;
-    padding-top: 5%;
-    padding-left: 10%;
-}
-
-    /*container*/
+/*container*/
 .breakOne { 
     display: flex;
     max-width: 33%;
@@ -100,7 +93,6 @@ div h3 {
     align-items: flex-start;
     color: var(--background);
 }
-
 /*child1*/
 .hey {
     color: var(--retroDarkBlue);
@@ -109,7 +101,6 @@ div h3 {
     margin-left: 10%;
     padding-right: 1%;
 }
-
 /*child2*/
 .jack {
     font-size: 300%;
@@ -118,7 +109,6 @@ div h3 {
     margin-right: 20px;
     margin-left: 10px;
 }
-
 /*child3*/
 .webDev {
     margin-top: 10px;
@@ -132,20 +122,44 @@ div h3 {
     margin-right: 10%;
 }
 
-.headingAboutMe {
+.headingExp {
     display: flex;
     width: 100%;
-    padding-bottom: 20px;
+    font-size: 150%;
+    padding-left: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.containerAbout {
+.containerExp {
     background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     width: 20%;
-    min-height: 50px;
+    min-height: 200px;
     min-width: 50px;
+    box-shadow: 0 4px 8px 0 #926f54;
 }
 
-#about_me {
+.containerExp img {
+    display: flex;
+    align-self: start;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.containerExp h4 {
+    font-family: 'fira code';
+}
+
+.containerExp p {
+    font-family: 'fira code';
+    padding: 5%;
+}
+
+.experience {
     background-color: var(--retroBeige);
     display: flex;
     flex-wrap: wrap;
@@ -153,5 +167,19 @@ div h3 {
     padding-bottom: 20px;
 }
 
+#about_me {
+    background-color: var(--background);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 20px;
+}
 
+.aboutMeHeading {
+    padding-right: 30%;
+}
+
+.aboutMeHeading h3 {
+    font-size: 150%;
+}
 /*1225 width*/

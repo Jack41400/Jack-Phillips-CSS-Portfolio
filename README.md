@@ -12,3 +12,5 @@
  - Screen layout adapts to viewport
 
 ## New
+
+<a href="https://imageresizer.com" target="_blank">Image Resizer</a>
